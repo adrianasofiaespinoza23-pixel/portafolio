@@ -11,7 +11,7 @@ const PREMIUM_PROJECTS: Project[] = [
     category: "Restaurant Landing Page",
     client: "Coff-ee",
     year: "2025",
-    image: "/src/assets/images/project_coffeeee.png",
+    image: "/src/assets/images/coff-ee.png",
     tech: ["React", "Tailwind CSS", "JavaScript"],
     link: "https://cafe-zular.vercel.app/",
     description: "Landing page for a coffee shop with menu, specialties, reviews and online reservation system."
@@ -22,7 +22,7 @@ const PREMIUM_PROJECTS: Project[] = [
     category: "Health Services Website",
     client: "Strong Gait",
     year: "2025",
-    image: "/src/assets/images/project_stronggait.png",
+    image: "/src/assets/images/Strong-gait.png",
     tech: ["React", "Tailwind CSS", "JavaScript"],
     link: "https://stronggait.com/",
     description: "Professional website for a home physiotherapy service covering all of Quito, with appointment scheduling and service listings."
@@ -33,7 +33,7 @@ const PREMIUM_PROJECTS: Project[] = [
     category: "Fashion E-Commerce",
     client: "NEW Store",
     year: "2026",
-    image: "/src/assets/images/project_new.png",
+    image: "/src/assets/images/New.png",
     tech: ["Next.js", "TypeScript", "Tailwind CSS"],
     link: "https://new-smoky-omega.vercel.app/",
     description: "Elegant fashion e-commerce store with collections, product catalog, cart and user account management."
@@ -44,7 +44,7 @@ const PREMIUM_PROJECTS: Project[] = [
     category: "Fitness Landing Page",
     client: "Gym Ignacio",
     year: "2025",
-    image: "/src/assets/images/project_gymignacio.png",
+    image: "/src/assets/images/Gym-Ignacio.png",
     tech: ["React", "Tailwind CSS", "JavaScript"],
     link: "https://gym-ignacio.vercel.app/",
     description: "Premium fitness center landing page showcasing classes, multiple locations and membership pricing."
