@@ -36,6 +36,22 @@ export default function Hero() {
           style={{ y: textY, opacity: opacityFade }}
           className="flex flex-col items-start text-left z-20 space-y-8 md:space-y-10"
         >
+          {/* Available badge */}
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.05 }}
+            className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-white/10 bg-white/4 backdrop-blur-sm"
+          >
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-60" />
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" />
+            </span>
+            <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-neutral-400">
+              Available for opportunities
+            </span>
+          </motion.div>
+
           {/* 2. Massive Editorial Heading */}
           <div className="space-y-0 pt-6">
             <motion.h1
