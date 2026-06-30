@@ -1,23 +1,13 @@
 import React from "react";
 import { motion } from "motion/react";
-import { Mail, Linkedin, Github, ArrowRight } from "lucide-react";
+import { Github, ArrowRight } from "lucide-react";
 import contactImage from "../assets/images/avatar2.png";
 
 export default function Contact() {
   const socialLinks = [
     {
-      icon: <Mail className="h-5 w-5" />,
-      url: "mailto:adrianasofiaespinoza23@gmail.com",
-      label: "Email"
-    },
-    {
-      icon: <Linkedin className="h-5 w-5" />,
-      url: "https://linkedin.com",
-      label: "LinkedIn"
-    },
-    {
       icon: <Github className="h-5 w-5" />,
-      url: "https://github.com",
+      url: "https://github.com/adrianasofiaespinoza23-pixel",
       label: "GitHub"
     }
   ];

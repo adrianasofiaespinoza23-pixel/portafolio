@@ -4,51 +4,50 @@ import ProjectRow from "./ProjectRow";
 import Reveal from "./Reveal";
 import { Project } from "../types";
 
-// Dynamic portfolio projects using beautifully pre-generated assets.
 const PREMIUM_PROJECTS: Project[] = [
   {
-    id: "atelier",
-    title: "Atelier Studio",
-    category: "Architecture Platform",
-    client: "Design Atelier Ltd",
+    id: "coffeeee",
+    title: "Coff-ee",
+    category: "Restaurant Landing Page",
+    client: "Coff-ee",
     year: "2025",
-    image: "/src/assets/images/project_atelier_1781879561097.jpg",
-    tech: ["React Node", "Three.js", "WebGL", "Tailwind CSS"],
-    link: "https://github.com/adriana-espinoza/atelier-studio-visualizer",
-    description: "An immersive digital design workspace configured for geometric modeling, architectural visualizers, and interactive structural layouts."
+    image: "/src/assets/images/project_coffeeee.png",
+    tech: ["React", "Tailwind CSS", "JavaScript"],
+    link: "https://cafe-zular.vercel.app/",
+    description: "Landing page for a coffee shop with menu, specialties, reviews and online reservation system."
   },
   {
-    id: "nova",
-    title: "Nova Volumetric",
-    category: "AI Lighting Simulation",
-    client: "Lumina Labs S.A.",
-    year: "2026",
-    image: "/src/assets/images/project_nova_1781879574396.jpg",
-    tech: ["Next.js", "WebGPU", "Gemini API", "Rust WASM"],
-    link: "https://github.com/adriana-espinoza/nova-lighting-simulation",
-    description: "A state-of-the-art illumination design and cloud light-scatter rendering engine utilizing deep-learning physics simulations."
-  },
-  {
-    id: "horizon",
-    title: "Horizon Prism",
-    category: "Decentralized Renderer",
-    client: "Horizon Films",
+    id: "stronggait",
+    title: "Strong Gait",
+    category: "Health Services Website",
+    client: "Strong Gait",
     year: "2025",
-    image: "/src/assets/images/project_horizon_1781879587998.jpg",
-    tech: ["Vite", "D3.js", "WebRTC", "TypeScript"],
-    link: "https://github.com/adriana-espinoza/horizon-prism-renderer",
-    description: "Real-time glass optical light-diffraction canvas that distributes decentralized cinematic asset computation with precision."
+    image: "/src/assets/images/project_stronggait.png",
+    tech: ["React", "Tailwind CSS", "JavaScript"],
+    link: "https://stronggait.com/",
+    description: "Professional website for a home physiotherapy service covering all of Quito, with appointment scheduling and service listings."
   },
   {
-    id: "vesper",
-    title: "Vesper Spatial Synth",
-    category: "Interactive Audio Visual",
-    client: "Mute Research",
+    id: "new",
+    title: "NEW",
+    category: "Fashion E-Commerce",
+    client: "NEW Store",
     year: "2026",
-    image: "/src/assets/images/project_vesper_1781879601769.jpg",
-    tech: ["React SPA", "Web Audio API", "Framer Motion"],
-    link: "https://github.com/adriana-espinoza/vesper-spatial-synth",
-    description: "An elegant interactive synthesizer workspace connecting spatial audio arrays into beautifully organic fluid metal art motions."
+    image: "/src/assets/images/project_new.png",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    link: "https://new-smoky-omega.vercel.app/",
+    description: "Elegant fashion e-commerce store with collections, product catalog, cart and user account management."
+  },
+  {
+    id: "gymignacio",
+    title: "Gym Ignacio",
+    category: "Fitness Landing Page",
+    client: "Gym Ignacio",
+    year: "2025",
+    image: "/src/assets/images/project_gymignacio.png",
+    tech: ["React", "Tailwind CSS", "JavaScript"],
+    link: "https://gym-ignacio.vercel.app/",
+    description: "Premium fitness center landing page showcasing classes, multiple locations and membership pricing."
   }
 ];
 
