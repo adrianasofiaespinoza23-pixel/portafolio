@@ -40,7 +40,7 @@ export default function ProjectRow({ projects }: ProjectRowProps) {
               className="block cursor-pointer focus:outline-none"
             >
               {/* Aspect Container */}
-              <div className="relative aspect-[4/5] w-full rounded-[2rem] overflow-hidden bg-neutral-900 shadow-[0_20px_50px_rgba(0,0,0,0.3)] group-hover:shadow-[0_30px_70px_rgba(0,0,0,0.5)] transition-shadow duration-700">
+              <div className="relative aspect-video w-full rounded-[2rem] overflow-hidden bg-neutral-900 shadow-[0_20px_50px_rgba(0,0,0,0.3)] group-hover:shadow-[0_30px_70px_rgba(0,0,0,0.5)] transition-shadow duration-700">
                 {/* Overlay Gradient for depth */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-70 z-10 transition-opacity duration-700 group-hover:opacity-85" />
 
