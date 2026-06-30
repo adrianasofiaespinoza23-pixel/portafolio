@@ -1,17 +1,8 @@
 import React from "react";
 import { motion } from "motion/react";
-import { Github } from "lucide-react";
 import contactImage from "../assets/images/avatar2.png";
 
 export default function Contact() {
-  const socialLinks = [
-    {
-      icon: <Github className="h-5 w-5" />,
-      url: "https://github.com/adrianasofiaespinoza23-pixel",
-      label: "GitHub"
-    }
-  ];
-
   return (
     <section
       id="contact"
@@ -81,28 +72,6 @@ export default function Contact() {
               alt="Adriana Espinoza - Contact Section"
               className="h-full w-full object-contain transition-transform duration-[1.5s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-104"
             />
-          </motion.div>
-
-          {/* Social Icons precisely centered beneath the fullbody avatar */}
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-            className="flex gap-4 items-center justify-center w-full max-w-[280px] xs:max-w-[320px]"
-          >
-            {socialLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={link.label}
-                className="h-11 w-11 rounded-full border border-neutral-800/80 hover:border-[#c2a781] flex items-center justify-center text-[#8e8e91] hover:text-[#c2a781] bg-neutral-950/60 hover:bg-[#161618] transition-all duration-300 shadow-lg cursor-pointer"
-              >
-                {link.icon}
-              </a>
-            ))}
           </motion.div>
         </div>
 

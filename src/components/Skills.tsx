@@ -21,8 +21,6 @@ const SKILL_CATEGORIES = [
       "Node.js",
       "Python",
       "PostgreSQL",
-      "Redis",
-      "GraphQL",
       "REST APIs"
     ]
   },
@@ -32,7 +30,6 @@ const SKILL_CATEGORIES = [
       "Git",
       "Docker",
       "AWS",
-      "CI/CD",
       "Vercel",
       "Figma"
     ]
@@ -42,9 +39,7 @@ const SKILL_CATEGORIES = [
     items: [
       "UI/UX Design",
       "Design Systems",
-      "Framer",
-      "Prototyping",
-      "Motion Design"
+      "Prototyping"
     ]
   }
 ];

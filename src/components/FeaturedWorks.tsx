@@ -3,6 +3,10 @@ import AnimatedBackground from "./AnimatedBackground";
 import ProjectRow from "./ProjectRow";
 import Reveal from "./Reveal";
 import { Project } from "../types";
+import coffeeeImg from "../assets/images/coff-ee.png";
+import strongGaitImg from "../assets/images/Strong-gait.png";
+import newImg from "../assets/images/New.png";
+import gymIgnacioImg from "../assets/images/Gym-Ignacio.png";
 
 const PREMIUM_PROJECTS: Project[] = [
   {
@@ -11,7 +15,7 @@ const PREMIUM_PROJECTS: Project[] = [
     category: "Restaurant Landing Page",
     client: "Coff-ee",
     year: "2025",
-    image: "/src/assets/images/coff-ee.png",
+    image: coffeeeImg,
     tech: ["React", "Tailwind CSS", "JavaScript"],
     link: "https://cafe-zular.vercel.app/",
     description: "Landing page for a coffee shop with menu, specialties, reviews and online reservation system."
@@ -22,7 +26,7 @@ const PREMIUM_PROJECTS: Project[] = [
     category: "Health Services Website",
     client: "Strong Gait",
     year: "2025",
-    image: "/src/assets/images/Strong-gait.png",
+    image: strongGaitImg,
     tech: ["React", "Tailwind CSS", "JavaScript"],
     link: "https://stronggait.com/",
     description: "Professional website for a home physiotherapy service covering all of Quito, with appointment scheduling and service listings."
@@ -33,7 +37,7 @@ const PREMIUM_PROJECTS: Project[] = [
     category: "Fashion E-Commerce",
     client: "NEW Store",
     year: "2026",
-    image: "/src/assets/images/New.png",
+    image: newImg,
     tech: ["Next.js", "TypeScript", "Tailwind CSS"],
     link: "https://new-smoky-omega.vercel.app/",
     description: "Elegant fashion e-commerce store with collections, product catalog, cart and user account management."
@@ -44,7 +48,7 @@ const PREMIUM_PROJECTS: Project[] = [
     category: "Fitness Landing Page",
     client: "Gym Ignacio",
     year: "2025",
-    image: "/src/assets/images/Gym-Ignacio.png",
+    image: gymIgnacioImg,
     tech: ["React", "Tailwind CSS", "JavaScript"],
     link: "https://gym-ignacio.vercel.app/",
     description: "Premium fitness center landing page showcasing classes, multiple locations and membership pricing."

@@ -74,7 +74,7 @@ export default function Navbar() {
               onClick={() => handleNavClick("skills")}
               className="font-mono text-xs uppercase tracking-widest text-[#8e8e91] hover:text-white transition-colors duration-300 cursor-pointer"
             >
-              Skill
+              Skills
             </button>
             <button
               onClick={() => handleNavClick("contact")}
@@ -140,7 +140,7 @@ export default function Navbar() {
                 onClick={() => handleNavClick("skills")}
                 className="font-display font-light text-4xl text-neutral-200 hover:text-white transition-colors text-left"
               >
-                Skill
+                Skills
               </button>
               <button
                 onClick={() => handleNavClick("contact")}
@@ -153,10 +153,10 @@ export default function Navbar() {
 
               <div className="pt-2 text-left">
                 <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-[#8e8e91] block mb-1">
-                  Brand Representation
+                  Portfolio
                 </span>
                 <span className="font-sans text-xs text-neutral-400 font-light">
-                  Adriana Espinoza Portfolio
+                  © 2026 Adriana Espinoza
                 </span>
               </div>
             </div>
