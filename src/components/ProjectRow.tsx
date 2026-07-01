@@ -10,7 +10,7 @@ export default function ProjectRow({ projects }: ProjectRowProps) {
 
   return (
     <div className="relative w-full overflow-hidden slider-mask">
-      <div className="animate-scroll-cards flex gap-8 w-max hover:[animation-play-state:paused]">
+      <div className="animate-scroll-cards flex gap-8 w-max">
         {items.map((project, idx) => (
           <a
             key={idx}

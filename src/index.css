@@ -80,6 +80,10 @@ html {
   animation: scroll-right 45s linear infinite;
 }
 
+.animate-scroll-cards:hover {
+  animation-play-state: paused;
+}
+
 .slider-mask {
   mask: linear-gradient(90deg, transparent 0%, black 8%, black 92%, transparent 100%);
   -webkit-mask: linear-gradient(90deg, transparent 0%, black 8%, black 92%, transparent 100%);
