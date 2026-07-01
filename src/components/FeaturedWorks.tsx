@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import AnimatedBackground from "./AnimatedBackground";
 import ProjectRow from "./ProjectRow";
 import Reveal from "./Reveal";
+import ImageSlider from "./ImageSlider";
 import { Project } from "../types";
 import coffeeeImg from "../assets/images/coff-ee.png";
 import strongGaitImg from "../assets/images/Strong-gait.png";
@@ -14,9 +15,9 @@ const PREMIUM_PROJECTS: Project[] = [
     title: "Coff-ee",
     category: "Restaurant Landing Page",
     client: "Coff-ee",
-    year: "2025",
+    year: "2026",
     image: coffeeeImg,
-    tech: ["React", "Tailwind CSS", "JavaScript"],
+    tech: ["React", "JavaScript", "TypeScript", "Git", "HTML"],
     link: "https://cafe-zular.vercel.app/",
     description: "Landing page for a coffee shop with menu, specialties, reviews and online reservation system."
   },
@@ -25,7 +26,7 @@ const PREMIUM_PROJECTS: Project[] = [
     title: "Strong Gait",
     category: "Health Services Website",
     client: "Strong Gait",
-    year: "2025",
+    year: "2026",
     image: strongGaitImg,
     tech: ["React", "Tailwind CSS", "JavaScript"],
     link: "https://stronggait.com/",
@@ -38,7 +39,7 @@ const PREMIUM_PROJECTS: Project[] = [
     client: "NEW Store",
     year: "2026",
     image: newImg,
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    tech: ["Next.js", "React", "TypeScript", "Zustand", "Firebase"],
     link: "https://new-smoky-omega.vercel.app/",
     description: "Elegant fashion e-commerce store with collections, product catalog, cart and user account management."
   },
@@ -47,9 +48,9 @@ const PREMIUM_PROJECTS: Project[] = [
     title: "Gym Ignacio",
     category: "Fitness Landing Page",
     client: "Gym Ignacio",
-    year: "2025",
+    year: "2026",
     image: gymIgnacioImg,
-    tech: ["React", "Tailwind CSS", "JavaScript"],
+    tech: ["Next.js", "React", "TypeScript", "JavaScript"],
     link: "https://gym-ignacio.vercel.app/",
     description: "Premium fitness center landing page showcasing classes, multiple locations and membership pricing."
   }
@@ -83,6 +84,11 @@ export default function FeaturedWorks() {
       {/* Horizontal Scroll Showcase Gallery (ProjectRow) */}
       <div className="w-full z-10">
         <ProjectRow projects={PREMIUM_PROJECTS} />
+      </div>
+
+      {/* Image Slider Strip */}
+      <div className="w-full z-10 mt-20 md:mt-24">
+        <ImageSlider />
       </div>
 
       {/* Cinematic decorative label */}
