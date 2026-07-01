@@ -2,7 +2,6 @@ import { motion } from "motion/react";
 import AnimatedBackground from "./AnimatedBackground";
 import ProjectRow from "./ProjectRow";
 import Reveal from "./Reveal";
-import ImageSlider from "./ImageSlider";
 import { Project } from "../types";
 import coffeeeImg from "../assets/images/coff-ee.png";
 import strongGaitImg from "../assets/images/Strong-gait.png";
@@ -84,11 +83,6 @@ export default function FeaturedWorks() {
       {/* Horizontal Scroll Showcase Gallery (ProjectRow) */}
       <div className="w-full z-10">
         <ProjectRow projects={PREMIUM_PROJECTS} />
-      </div>
-
-      {/* Image Slider Strip */}
-      <div className="w-full z-10 mt-20 md:mt-24">
-        <ImageSlider />
       </div>
 
       {/* Cinematic decorative label */}
