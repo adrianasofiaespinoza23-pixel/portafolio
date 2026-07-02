@@ -1,9 +1,9 @@
-import { motion } from "motion/react";
 import AnimatedBackground from "./AnimatedBackground";
 import ProjectRow from "./ProjectRow";
 import Reveal from "./Reveal";
 import { Project } from "../types";
 import coffeeeImg from "../assets/images/coff-ee.png";
+import coffeeeV2Img from "../assets/images/coff-ee-v2.png";
 import strongGaitImg from "../assets/images/Strong-gait.png";
 import newImg from "../assets/images/New.png";
 import gymIgnacioImg from "../assets/images/Gym-Ignacio.png";
@@ -19,6 +19,17 @@ const PREMIUM_PROJECTS: Project[] = [
     tech: ["React", "JavaScript", "TypeScript", "Git", "HTML"],
     link: "https://cafe-zular.vercel.app/",
     description: "Landing page for a coffee shop with menu, specialties, reviews and online reservation system."
+  },
+  {
+    id: "coffeeeev2",
+    title: "Coff-ee v2",
+    category: "Restaurant Landing Page",
+    client: "Coff-ee",
+    year: "2026",
+    image: coffeeeV2Img,
+    tech: ["React", "JavaScript", "TypeScript", "Git", "HTML"],
+    link: "https://coff-ee-v2.vercel.app/",
+    description: "Redesign of the Coff-ee landing page with updated visual identity, improved layout and enhanced user experience."
   },
   {
     id: "stronggait",
